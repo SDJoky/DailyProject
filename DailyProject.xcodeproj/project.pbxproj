@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45C4361123F3C46600D94BD4 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C4361023F3C46600D94BD4 /* TestObj.m */; };
 		45F878E723F3C34000D138CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F878E623F3C34000D138CA /* AppDelegate.m */; };
 		45F878EA23F3C34000D138CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F878E923F3C34000D138CA /* SceneDelegate.m */; };
 		45F878ED23F3C34000D138CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F878EC23F3C34000D138CA /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45C4360F23F3C46600D94BD4 /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		45C4361023F3C46600D94BD4 /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
 		45F878E223F3C34000D138CA /* DailyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F878E523F3C34000D138CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45F878E623F3C34000D138CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 		45F878E423F3C34000D138CA /* DailyProject */ = {
 			isa = PBXGroup;
 			children = (
+				45C4360F23F3C46600D94BD4 /* TestObj.h */,
+				45C4361023F3C46600D94BD4 /* TestObj.m */,
 				45F878E523F3C34000D138CA /* AppDelegate.h */,
 				45F878E623F3C34000D138CA /* AppDelegate.m */,
 				45F878E823F3C34000D138CA /* SceneDelegate.h */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C4361123F3C46600D94BD4 /* TestObj.m in Sources */,
 				45F878ED23F3C34000D138CA /* ViewController.m in Sources */,
 				45F878E723F3C34000D138CA /* AppDelegate.m in Sources */,
 				45F878F823F3C34100D138CA /* main.m in Sources */,
@@ -209,7 +215,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -268,7 +274,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

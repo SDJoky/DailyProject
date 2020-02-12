@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TestObj.h"
 @interface ViewController ()
 
 @end
@@ -16,8 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    TestObj *obj1 = [[TestObj alloc] init];
+    obj1.name = @"name1--";
+    [obj1 sd_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:nil];
+    obj1.name = @"name-change1---";
 }
 
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    NSLog(@"change ---- %@",change);
+}
 
 @end
