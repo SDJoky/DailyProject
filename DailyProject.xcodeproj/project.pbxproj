@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		452619C2240CC81400A32A15 /* TestObj+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 452619C1240CC81400A32A15 /* TestObj+Test.m */; };
 		45C4361123F3C46600D94BD4 /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C4361023F3C46600D94BD4 /* TestObj.m */; };
 		45F878E723F3C34000D138CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F878E623F3C34000D138CA /* AppDelegate.m */; };
 		45F878EA23F3C34000D138CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F878E923F3C34000D138CA /* SceneDelegate.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		452619C0240CC81400A32A15 /* TestObj+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestObj+Test.h"; sourceTree = "<group>"; };
+		452619C1240CC81400A32A15 /* TestObj+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TestObj+Test.m"; sourceTree = "<group>"; };
 		45C4360F23F3C46600D94BD4 /* TestObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
 		45C4361023F3C46600D94BD4 /* TestObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
 		45F878E223F3C34000D138CA /* DailyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +80,8 @@
 				45F878F323F3C34100D138CA /* LaunchScreen.storyboard */,
 				45F878F623F3C34100D138CA /* Info.plist */,
 				45F878F723F3C34100D138CA /* main.m */,
+				452619C0240CC81400A32A15 /* TestObj+Test.h */,
+				452619C1240CC81400A32A15 /* TestObj+Test.m */,
 			);
 			path = DailyProject;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				45C4361123F3C46600D94BD4 /* TestObj.m in Sources */,
 				45F878ED23F3C34000D138CA /* ViewController.m in Sources */,
 				45F878E723F3C34000D138CA /* AppDelegate.m in Sources */,
+				452619C2240CC81400A32A15 /* TestObj+Test.m in Sources */,
 				45F878F823F3C34100D138CA /* main.m in Sources */,
 				45F878EA23F3C34000D138CA /* SceneDelegate.m in Sources */,
 			);

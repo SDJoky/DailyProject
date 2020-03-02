@@ -11,6 +11,11 @@
 
 @implementation TestObj
 
+//initialize是通过objc_msgSend调用
+//load是根据函数地址直接调用
++ (void)load {
+    NSLog(@"TestObj--原类--load");
+}
 
 void setterMethod(id self, SEL _cmd, NSString *name)  {
 //1.调用父类方法
